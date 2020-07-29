@@ -1,1 +1,1 @@
-# AuroraZabot.github.io
+# aurorazabot.github.io
