@@ -1,10 +1,10 @@
 /* Header */
 div.header {
-  max-width: 50%;
+  max-width: 50em;
   height: fit-content;
   position: absolute;
-  left: 30%;
-  right: 30%;
+  left: 40%;
+  right: 40%;
   background-color: #070707;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
