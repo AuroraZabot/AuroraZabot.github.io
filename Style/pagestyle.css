@@ -5,6 +5,7 @@ div.header {
   position: absolute;
   left: 25%;
   right: 25%;
+  padding-top: 1px;
   background-color: #070707;
   text-align: center;
 }
