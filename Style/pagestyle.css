@@ -13,9 +13,10 @@ div.header {
 h1.title {
   font-size: 5vw;
   color: #EAEAEA;
+  padding-top: 1vw;
 }
 
 h2.subtitle {
-  font-size: 2vw;
+  font-size: 1vw;
   color: #EAEAEA;
 }
