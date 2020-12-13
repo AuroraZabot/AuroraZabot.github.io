@@ -9,3 +9,13 @@ div.header {
   background-color: #070707;
   text-align: center;
 }
+
+h1.title {
+  font-size: 5vw;
+  color: #EAEAEA;
+}
+
+h2.subtitle {
+  font-size: 2vw;
+  color: #EAEAEA;
+}
