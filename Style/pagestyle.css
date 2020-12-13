@@ -1,6 +1,6 @@
 /* Header */
 div.header {
-  max-width: 50em;
+  width: 50%;
   height: fit-content;
   position: absolute;
   left: 40%;
