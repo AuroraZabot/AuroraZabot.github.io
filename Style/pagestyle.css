@@ -2,7 +2,7 @@
 div.header {
   width: 50%;
   height: fit-content;
-  position: absolute;
+  position: relative;
   left: 40%;
   right: 40%;
   background-color: #070707;
