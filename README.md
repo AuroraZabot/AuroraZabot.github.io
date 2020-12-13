@@ -10,3 +10,6 @@ Certainly, I'm not the best scientist nor analyzer in the world. I'm just a rece
 But, despite this, I will put all my efforts into this outreach activity, because I think it's only fair that everyone is allowed to be able to understand how certain things work.
 
 So, thanks a lot for passing, have fun!
+
+P.s. You may ask why I'm using a GitHub page and not a site like WordPress or Wix.
+The reason is pretty simple: I wanted to learn how to deal with HTML, CSS, and Javascript, so I've tried to combine business with pleasure!
