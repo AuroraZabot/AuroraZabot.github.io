@@ -1,11 +1,11 @@
 /* Header */
 div.header {
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  background-color: #070707;
   width: 50%;
   height: 20px;
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  background-color: #070707;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
   text-align: center;
