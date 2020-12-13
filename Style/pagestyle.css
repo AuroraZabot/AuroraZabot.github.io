@@ -1,6 +1,7 @@
 /* Header */
 div.header {
-  width: 30%;
+  max-width: 50%;
+  height: fit-content;
   position: absolute;
   left: 30%;
   right: 30%;
