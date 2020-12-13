@@ -6,6 +6,6 @@ div.header {
   padding-bottom: 1%;
   position: absolute;
   left: 50%;
-  top: 50%;
+  right: 50%;
   text-align: center;
 }
