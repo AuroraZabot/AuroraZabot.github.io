@@ -23,10 +23,10 @@ h2.subtitle {
 }
 
 /*left column*/
-div.left {
+div.leftCol {
   width: 10%;
   height: fit-content;
-  position: absolute;
+  position: relative;
   left: 25%;
   right: 60%;
   padding-top: 1px;
