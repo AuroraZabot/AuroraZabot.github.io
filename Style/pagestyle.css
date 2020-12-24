@@ -3,8 +3,10 @@ div.header {
   width: 50%;
   height: fit-content;
   position: absolute;
-  left: 25%;
-  right: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  /*left: 25%;
+  right: 25%;*/
   padding-top: 1px;
   background-color: #2E2E2E;
   text-align: center;
