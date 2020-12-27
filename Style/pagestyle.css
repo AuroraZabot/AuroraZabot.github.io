@@ -17,7 +17,17 @@ h1.title {
 }
 
 /* General link in the header */
-a.about, a.papers, a.tutorials:link {
+a.about:link {
+  font-size: 2vw;
+  color: #EAEAEA;
+}
+
+a.papers:link {
+  font-size: 2vw;
+  color: #EAEAEA;
+}
+
+a.tutorials:link {
   font-size: 2vw;
   color: #EAEAEA;
 }
