@@ -17,17 +17,13 @@ h1.title {
 }
 
 /* General link in the header */
-a.about:link {
+a.about, a.papers, a.tutorials:link {
   font-size: 2vw;
   color: #EAEAEA;
 }
 
-a.papers:link {
-  font-size: 2vw;
-  color: #EAEAEA;
-}
-
-a.tutorials:link {
+/* General link already visited in header */
+a.about, a.papers, a.tutorials:visited {
   font-size: 2vw;
   color: #EAEAEA;
 }
