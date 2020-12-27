@@ -1,25 +1,18 @@
 /* ----------------------------------------------------------------- */
 /* Header container */
-div.header {
+.header {
   width: 60vw;
   height: fit-content;
   position: absolute;
   left: 20vw;
   right: 20vw;
-  background-color: #2E2E2E;
+  opacity: 0%;
+  background-color: #1a1615;
   text-align: center;
 }
 
 /* ----------------------------------------------------------------- */
 /* Title container */
-div.title {
-  width: 60vw;
-  height: 8vw;
-  background-color: #2E2E2E;
-  text-align: center;
-  padding-top: 0vh;
-}
-
 h1.title {
   font-size: 4vw;
   color: #EAEAEA;
@@ -33,59 +26,6 @@ div.nav {
   background-color: #FFFFFF;
   text-align: center;
   padding-top: 8vh;
-}
-
-ul.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul.nav li {
-  display: inline-block;
-}
-
-/* General link in the header */
-a.about, a.papers, a.tutorials:link {
-  font-size: 2vw;
-  color: #EAEAEA;
-  padding-top: 2vw;
-}
-
-/* General link already visited in header */
-a.about, a.papers, a.tutorials:visited {
-  font-size: 2vw;
-  color: #EAEAEA;
-}
-
-/* Mouse over link: about */
-a.about:hover {
-  color: #C1877C;
-}
-
-/* Selected link: about */
-a.about:active {
-  color: #BB6454;
-}
-
-/* Mouse over link: papers */
-a.papers:hover {
-  color: #F6E5B9;
-}
-
-/* Selected link: papers */
-a.papers:active {
-  color: #F5D071;
-}
-
-/* Mouse over link: tutorials */
-a.tutorials:hover {
-  color: #8FAB9D;
-}
-
-/* Selected link: tutorials */
-a.tutorials:active {
-  color: #52A97D;
 }
 
 /* ----------------------------------------------------------------- */
