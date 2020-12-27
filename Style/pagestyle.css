@@ -2,8 +2,8 @@
 /* Header container */
 div.header {
   padding-top: 30px;
-  opacity: 0.0;
   background-color: #1a1615;
+  opacity: 0.0;
   text-align: center;
 }
 
