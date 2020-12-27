@@ -19,14 +19,14 @@ h1.title {
 
 /* General link in the header */
 a.about, a.papers, a.tutorials:link {
-  font-size: 2.5vw;
+  font-size: 2vw;
   color: #EAEAEA;
-  padding-top: 3vw;
+  padding-top: 2vw;
 }
 
 /* General link already visited in header */
 a.about, a.papers, a.tutorials:visited {
-  font-size: 2.5vw;
+  font-size: 2vw;
   color: #EAEAEA;
 }
 
