@@ -2,29 +2,29 @@
 /* Header */
 div.header {
   width: 60vw;
-  height: 30vw;
+  height: 20vw;
   position: absolute;
-  left: 20%;
-  right: 20%;
+  left: 20vw;
+  right: 20vw;
   background-color: #2E2E2E;
   text-align: center;
 }
 
 /* Title of the webpage */
 h1.title {
-  font-size: 4vw;
+  font-size: 3vw;
   color: #EAEAEA;
 }
 
 /* General link in the header */
 a.about, a.papers, a.tutorials:link {
-  font-size: 2vw;
+  font-size: 1vw;
   color: #EAEAEA;
 }
 
 /* General link already visited in header */
 a.about, a.papers, a.tutorials:visited {
-  font-size: 2vw;
+  font-size: 1vw;
   color: #EAEAEA;
 }
 
