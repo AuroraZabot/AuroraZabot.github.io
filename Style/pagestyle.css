@@ -1,8 +1,8 @@
 /* ----------------------------------------------------------------- */
 /* Header */
 div.header {
-  width: 60%;
-  height: 20%;
+  width: 60vw;
+  height: 30vw;
   position: absolute;
   left: 20%;
   right: 20%;
@@ -12,19 +12,19 @@ div.header {
 
 /* Title of the webpage */
 h1.title {
-  font-size: 4%;
+  font-size: 4vw;
   color: #EAEAEA;
 }
 
 /* General link in the header */
 a.about, a.papers, a.tutorials:link {
-  font-size: 2%;
+  font-size: 2vw;
   color: #EAEAEA;
 }
 
 /* General link already visited in header */
 a.about, a.papers, a.tutorials:visited {
-  font-size: 2%;
+  font-size: 2vw;
   color: #EAEAEA;
 }
 
