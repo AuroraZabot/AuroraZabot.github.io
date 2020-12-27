@@ -14,17 +14,19 @@ div.header {
 h1.title {
   font-size: 4vw;
   color: #EAEAEA;
+  padding-top: 1vw;
 }
 
 /* General link in the header */
 a.about, a.papers, a.tutorials:link {
-  font-size: 2vw;
+  font-size: 2.5vw;
   color: #EAEAEA;
+  padding-top: 3vw;
 }
 
 /* General link already visited in header */
 a.about, a.papers, a.tutorials:visited {
-  font-size: 2vw;
+  font-size: 2.5vw;
   color: #EAEAEA;
 }
 
