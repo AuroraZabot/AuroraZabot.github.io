@@ -2,7 +2,7 @@
 /* Header container */
 div.header {
   width: 60vw;
-  height: 15vw;
+  height: 15vh;
   position: absolute;
   left: 20vw;
   right: 20vw;
@@ -17,7 +17,7 @@ div.title {
   height: 8vw;
   background-color: #2E2E2E;
   text-align: center;
-  padding-top: 0vw;
+  padding-top: 0vh;
 }
 
 h1.title {
@@ -29,9 +29,10 @@ h1.title {
 /* Navigation container */
 div.nav {
   width: 60vw;
-  height: 8vw;
+  height: 8vh;
   background-color: #FFFFFF;
   text-align: center;
+  padding-top: 8vh;
 }
 
 ul.nav {
