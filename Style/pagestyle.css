@@ -1,11 +1,11 @@
 /* Header */
 div.header {
   width: 60%;
-  height: fit-content;
+  height: 200px;
   position: absolute;
   left: 20%;
   right: 20%;
-  padding-top: -3px;
+  padding-top: 1vw;
   background-color: #2E2E2E;
   text-align: center;
 }
