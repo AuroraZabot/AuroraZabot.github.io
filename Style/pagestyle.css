@@ -1,10 +1,12 @@
 /* ----------------------------------------------------------------- */
 /* Header container */
 div.header {
-  padding-top: 30px;
-  background-color: #1b1716;
-  /*opacity: 0.9;*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: fit-content;
   text-align: center;
+  background-color: #1b1716;
+  opacity: 0.5;
 }
 
 div.header h1 {
