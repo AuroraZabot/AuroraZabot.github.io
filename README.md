@@ -1,5 +1,6 @@
 # aurorazabot.github.io
 Hi everyone, here is Aurora. This is my personal website.
+
 From my personal point of view, science should be accessible to everyone, even to people that have very little math knowledge.
 For this reason, my idea for creating this sort of "blog" would be to simplify concepts found in papers and in scientific articles to make them understandable to everyone.
 
