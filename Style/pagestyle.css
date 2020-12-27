@@ -2,7 +2,7 @@
 /* Header */
 div.header {
   width: 60%;
-  height: 10%;
+  height: 20%;
   position: absolute;
   left: 20%;
   right: 20%;
@@ -12,19 +12,19 @@ div.header {
 
 /* Title of the webpage */
 h1.title {
-  font-size: 3vw;
+  font-size: 4%;
   color: #EAEAEA;
 }
 
 /* General link in the header */
 a.about, a.papers, a.tutorials:link {
-  font-size: 2vw;
+  font-size: 2%;
   color: #EAEAEA;
 }
 
 /* General link already visited in header */
 a.about, a.papers, a.tutorials:visited {
-  font-size: 2vw;
+  font-size: 2%;
   color: #EAEAEA;
 }
 
