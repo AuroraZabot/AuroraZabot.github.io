@@ -1,5 +1,5 @@
 /* ----------------------------------------------------------------- */
-/* Header */
+/* Header container */
 div.header {
   width: 60vw;
   height: 15vw;
@@ -10,11 +10,38 @@ div.header {
   text-align: center;
 }
 
-/* Title of the webpage */
+/* ----------------------------------------------------------------- */
+/* Title container */
+div.title {
+  width: 60vw;
+  height: 8vw;
+  background-color: #2E2E2E;
+  text-align: center;
+}
+
 h1.title {
   font-size: 4vw;
   color: #EAEAEA;
-  padding-top: 1vw;
+}
+
+/* ----------------------------------------------------------------- */
+/* Navigation container */
+div.nav {
+  width: 60vw;
+  height: 8vw;
+  background-color: #2E2E2E;
+  padding-top: 8vw;
+  text-align: center;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.nav li {
+  display: inline-block;
 }
 
 /* General link in the header */
