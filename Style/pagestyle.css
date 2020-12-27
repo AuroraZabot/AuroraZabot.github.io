@@ -1,3 +1,4 @@
+/* ----------------------------------------------------------------- */
 /* Header */
 div.header {
   width: 60%;
@@ -6,22 +7,52 @@ div.header {
   left: 20%;
   right: 20%;
   background-color: #2E2E2E;
-}
-
-h1.title {
-  font-size: 4vw;
-  color: #EAEAEA;
   text-align: center;
-  padding-top: 1px;
 }
 
-h2.subtitle {
-  font-size: 1vw;
+/* Title of the webpage */
+h1.title {
+  font-size: 3vw;
   color: #EAEAEA;
-  padding-top: 0.5px;
 }
 
-/*left column*/
+/* General link in the header */
+a:link {
+  color: #EAEAEA;
+}
+
+/* Mouse over link: about */
+a.about:hover {
+  color: #C1877C;
+}
+
+/* Selected link: about */
+a.about:active {
+  color: #BB6454;
+}
+
+/* Mouse over link: papers */
+a.papers:hover {
+  color: #F6E5B9;
+}
+
+/* Selected link: papers */
+a.papers:active {
+  color: #F5D071;
+}
+
+/* Mouse over link: tutorials */
+a.tutorials:hover {
+  color: #8FAB9D;
+}
+
+/* Selected link: tutorials */
+a.tutorials:active {
+  color: #52A97D;
+}
+
+/* ----------------------------------------------------------------- */
+/* Left column */
 div.leftCol {
   width: 10%;
   height: 200px;
