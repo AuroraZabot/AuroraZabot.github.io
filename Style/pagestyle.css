@@ -1,19 +1,13 @@
 /* ----------------------------------------------------------------- */
 /* Header container */
-.header {
-  width: 60vw;
-  height: fit-content;
-  position: absolute;
-  left: 20vw;
-  right: 20vw;
-  opacity: 0%;
+div.header {
+  padding-top: 30px;
+  opacity: 0.0;
   background-color: #1a1615;
   text-align: center;
 }
 
-/* ----------------------------------------------------------------- */
-/* Title container */
-h1.title {
+div.header h1 {
   font-size: 4vw;
   color: #EAEAEA;
 }
