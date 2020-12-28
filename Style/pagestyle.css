@@ -22,6 +22,8 @@
 /* Navigation */
 .header ul {
   list-style-type: none;
+  width: 100%;
+  text-align: center;
 }
 
 .header li {
