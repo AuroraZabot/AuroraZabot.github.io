@@ -62,7 +62,7 @@
 
 /* ----------------------------------------------------------------- */
 /* Left column */
-.column.leftCol {
+.column.left {
   width: 55%;
   background-color: red;
   text-align: left;
@@ -70,7 +70,7 @@
 
 /* ----------------------------------------------------------------- */
 /* Right column */
-.column.rightCol {
+.column.right {
   width: 15%;
   background-color: blue;
   padding-left: 20px;
