@@ -12,17 +12,18 @@ div.header {
 
 /* Title */
 div.header h1 {
-  font-size: 4vmax;
-  color: #eaeaea;
   padding: 0;
+  font-size: 4.5vmax;
+  color: #eaeaea;
 }
 
 /* ----------------------------------------------------------------- */
 /* Navigation */
 div.header a:link {
+  padding: 0;
+  margin-top: -20px;
   float: center;
   display: inline;
-  padding: inherit;
   text-align: center;
   color: #eaeaea;
   text-decoration: none;
