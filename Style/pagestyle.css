@@ -42,9 +42,9 @@ div.header a:hover {
 }
 
 div.header a:active {
-  color: #1d0151;
+  color: #e8044c;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #85023c;
+  text-shadow: 1px 1px 1px #1d0151;
 }
 
 /* ----------------------------------------------------------------- */
