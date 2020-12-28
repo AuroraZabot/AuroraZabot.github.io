@@ -2,7 +2,7 @@
 /* Header container */
 div.header {
   padding: 0;
-  margin-top: 0;
+  margin: 0;
   height: 513px;
   text-align: center;
   background: #040207 url("header.jpg") no-repeat left top scroll;
@@ -21,7 +21,7 @@ div.header h1 {
 /* Navigation */
 div.header a:link {
   padding: 0;
-  margin-top: -100px;
+  margin-top: -300px;
   float: center;
   display: inline;
   text-align: center;
