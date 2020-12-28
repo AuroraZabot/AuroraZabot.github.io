@@ -61,7 +61,7 @@
   -ms-flex: 2;
   flex: 2;
   float: left;
-  width: 75%;
+  width: 55%;
   background-color: white;
   text-align: left;
 }
@@ -73,7 +73,7 @@
   -ms-flex: 1;
   flex: 1;
   float: left;
-  width: 25%;
+  width: 15%;
   background-color: white;
   padding-left: 20px;
 }
