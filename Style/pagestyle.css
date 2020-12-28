@@ -22,28 +22,28 @@ div.header h1 {
 }*/
 
 /* Style the topnav links */
-a.nav:link {
+div.header a:link {
   float: center;
   display: inline;
   padding-top: 2px;
   text-align: center;
-  text-decoration: none;
   color: #eaeaea;
+  text-decoration: none;
   font-size: 2%;
 }
 
-a.nav:visited {
+div.header a:visited {
   color: #eaeaea;
   text-decoration: none;
 }
 
 /* Change color on hover */
-a.nav:hover {
+div.header a:hover {
   color: #dd0451;
   text-decoration: none;
 }
 
-a.nav:active {
+div.header a:active {
   color: #0403b3;
   text-decoration: none;
 }
