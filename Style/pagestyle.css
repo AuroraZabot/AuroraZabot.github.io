@@ -3,7 +3,6 @@
 div.header {
   padding-top: 20px;
   padding-bottom: 20px;
-  height: 513px;
   text-align: center;
   background: #040207 url("header.jpg") no-repeat left top scroll;
   background-size: contain;
@@ -11,37 +10,37 @@ div.header {
 }
 
 div.header h1 {
-  font-size: 4vw;
+  font-size: 4%;
   color: #eaeaea;
 }
 
 /* ----------------------------------------------------------------- */
 /* Navigation container */
-.nav {
+/*.nav {
   overflow: hidden;
-}
+}*/
 
 /* Style the topnav links */
-.nav a:link {
+a.nav:link {
   float: center;
   display: inline;
   padding-top: 2px;
   text-align: center;
   text-decoration: none;
   color: #eaeaea;
-  font-size: 2.5vw;
+  font-size: 2%;
 }
 
-.nav a:visited {
+a.nav:visited {
   color: #eaeaea;
 }
 
 /* Change color on hover */
-.nav a:hover {
+a.nav:hover {
   color: #dd0451;
 }
 
-.nav a:active {
+a.nav:active {
   color: #0403b3;
 }
 
