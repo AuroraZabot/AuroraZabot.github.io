@@ -22,8 +22,7 @@ div.header h1 {
 div.header a:link {
   float: center;
   display: inline;
-  padding: 0px;
-  margin: 0px;
+  padding: inherit;
   text-align: center;
   color: #eaeaea;
   text-decoration: none;
