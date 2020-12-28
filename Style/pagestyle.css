@@ -26,6 +26,7 @@
 
 .header li {
   display: inline;
+  padding: 5px;
 }
 
 .header a:link {
