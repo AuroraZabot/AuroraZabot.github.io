@@ -12,7 +12,7 @@ div.header {
 
 /* Title */
 div.header h1 {
-  padding: 0;
+  padding: 10px;
   margin: 0;
   font-size: 5vmax;
   color: #eaeaea;
@@ -50,13 +50,35 @@ div.header a:active {
 /* ----------------------------------------------------------------- */
 /* Left column */
 div.leftCol {
-  width: 10%;
-  height: 200px;
-  position: relative;
-  top: 35%;
-  left: 25%;
-  right: 65%;
-  padding-top: 1px;
-  background-color: #2E2E2E;
+  float: left;
+  width: 75%;
+  background-color: white;
   text-align: left;
+}
+
+/* ----------------------------------------------------------------- */
+/* Right column */
+div.rightCol {
+  float: left;
+  width: 25%;
+  background-color: white;
+  padding-left: 20px;
+}
+
+/* ----------------------------------------------------------------- */
+/* Footer */
+div.footer {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  margin-top: 20px;
+}
+
+/* ----------------------------------------------------------------- */
+/* If the space is too small > Stack the two columns */
+@media screen and (max-width: 800px) {
+  div.leftCol, div.rightCol {
+    width: 100%;
+    padding: 0;
+  }
 }
