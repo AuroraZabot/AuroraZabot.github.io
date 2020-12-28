@@ -12,38 +12,33 @@ div.header {
 
 /* Title */
 div.header h1 {
-  font-size: 4%;
+  font-size: 4px;
   color: #eaeaea;
 }
 
 /* ----------------------------------------------------------------- */
-/* Navigation container */
-.nav {
-  overflow: hidden;
-}
-
 /* Navigation */
-.nav a:link {
+div.header a:link {
   float: center;
   display: inline;
-  padding-top: 2px;
+  padding-top: 5px;
   text-align: center;
   color: #eaeaea;
   text-decoration: none;
-  font-size: 2%;
+  font-size: 2px;
 }
 
-.nav a:visited {
+div.header a:visited {
   color: #eaeaea;
   text-decoration: none;
 }
 
-.nav a:hover {
+div.header a:hover {
   color: #dd0451;
   text-decoration: none;
 }
 
-.nav a:active {
+div.header a:active {
   color: #0403b3;
   text-decoration: none;
 }
