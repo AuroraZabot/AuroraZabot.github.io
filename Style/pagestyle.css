@@ -20,6 +20,18 @@
 
 /* ----------------------------------------------------------------- */
 /* Navigation */
+.header ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header li {
+  display: inline;
+}
+
 .header a:link {
   padding: 0;
   float: center;
@@ -54,15 +66,10 @@
 }
 
 /* ----------------------------------------------------------------- */
-/* Generic columns */
-.column {
+/* Left column */
+.left {
   flex: 1;
   float: left;
-}
-
-/* ----------------------------------------------------------------- */
-/* Left column */
-.column.left {
   width: 55%;
   background-color: red;
   text-align: left;
@@ -70,7 +77,9 @@
 
 /* ----------------------------------------------------------------- */
 /* Right column */
-.column.right {
+.right {
+  flex: 1;
+  float: left;
   width: 15%;
   background-color: blue;
   padding-left: 20px;
@@ -78,11 +87,11 @@
 
 /* ----------------------------------------------------------------- */
 /* Clear floats after the columns */
-/*.row:after {
+.row:after {
   content: "";
   display: table;
   clear: both;
-}*/
+}
 
 /* ----------------------------------------------------------------- */
 /* Footer */
@@ -98,7 +107,7 @@
 /* ----------------------------------------------------------------- */
 /* If the space is too small > Stack the two columns */
 @media screen and (max-width: 800px) {
-  .column.left, .column.right {
+  .left, .right {
     width: 100%;
     padding: 0;
   }
