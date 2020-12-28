@@ -28,6 +28,7 @@
 
 .header li {
   display: inline;
+  padding: 10px;
 }
 
 .header a:link {
