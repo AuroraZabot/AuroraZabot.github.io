@@ -12,17 +12,28 @@ div.header {
 
 div.header h1 {
   font-size: 4vw;
-  color: #EAEAEA;
+  color: #eaeaea;
 }
 
 /* ----------------------------------------------------------------- */
 /* Navigation container */
-div.nav {
-  width: 60vw;
-  height: fit-content;
-  background-color: #FFFFFF;
+.nav {
+  overflow: hidden;
+}
+
+/* Style the topnav links */
+.nav a {
+  float: center;
+  display: inline;
+  color: #eaeaea;
   text-align: center;
-  padding-top: 8vh;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.nav a:hover {
+  color: white;
 }
 
 /* ----------------------------------------------------------------- */
