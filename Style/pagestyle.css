@@ -1,7 +1,8 @@
 /* ----------------------------------------------------------------- */
 /* Header container */
 div.header {
-  padding-top: 0px;
+  padding: 0px;
+  margin: 0px;
   height: 513px;
   text-align: center;
   background: #040207 url("header.jpg") no-repeat left top scroll;
@@ -13,7 +14,7 @@ div.header {
 div.header h1 {
   font-size: 4vmax;
   color: #eaeaea;
-  padding-top: 5px;
+  padding: 10px;
 }
 
 /* ----------------------------------------------------------------- */
@@ -21,7 +22,7 @@ div.header h1 {
 div.header a:link {
   float: center;
   display: inline;
-  padding-top: 2px;
+  padding: 2px;
   text-align: center;
   color: #eaeaea;
   text-decoration: none;
