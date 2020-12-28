@@ -12,7 +12,7 @@ div.header {
 
 /* Title */
 div.header h1 {
-  font-size: 35%;
+  font-size: 5vmax;
   color: #eaeaea;
 }
 
@@ -25,7 +25,7 @@ div.header a:link {
   text-align: center;
   color: #eaeaea;
   text-decoration: none;
-  font-size: 20%;
+  font-size: 2.5vmax;
 }
 
 div.header a:visited {
