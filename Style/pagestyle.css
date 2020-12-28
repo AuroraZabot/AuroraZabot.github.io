@@ -43,7 +43,7 @@ div.header a:hover {
 }
 
 div.header a:active {
-  color: #e8044c;
+  /*color: #e8044c;*/
   color: #0003e6;
   text-decoration: none;
   text-shadow: 1px 1px 1px #1d0151;
