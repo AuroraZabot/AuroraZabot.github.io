@@ -1,6 +1,7 @@
 /* ----------------------------------------------------------------- */
 /* Header container */
 div.header {
+  padding-top: 0px;
   height: 513px;
   text-align: center;
   background: #040207 url("header.jpg") no-repeat left top scroll;
