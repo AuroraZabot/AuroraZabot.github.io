@@ -22,11 +22,11 @@ div.header h1 {
 div.header a:link {
   float: center;
   display: inline;
-  padding: 2px;
+  padding: 0px;
   text-align: center;
   color: #eaeaea;
   text-decoration: none;
-  font-size: 2vmax;
+  font-size: 1,5vmax;
 }
 
 div.header a:visited {
