@@ -88,6 +88,7 @@
 /* Footer */
 .footer {
   padding: 20px;
+  float: center;
   text-align: center;
   background: white;
   margin-top: 20px;
