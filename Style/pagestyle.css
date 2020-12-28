@@ -1,8 +1,7 @@
 /* ----------------------------------------------------------------- */
 /* Header container */
 div.header {
-  padding: 0px;
-  margin: 0px;
+  margin-top: 0;
   height: 513px;
   text-align: center;
   background: #040207 url("header.jpg") no-repeat left top scroll;
@@ -43,7 +42,7 @@ div.header a:hover {
 div.header a:active {
   color: #1d0151;
   text-decoration: none;
-  text-shadow: 2px 2px 5px white;
+  text-shadow: 0.5px 0.5px 0.5px white;
 }
 
 /* ----------------------------------------------------------------- */
