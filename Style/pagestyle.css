@@ -37,11 +37,13 @@ div.header a:visited {
 div.header a:hover {
   color: #85023c;
   text-decoration: none;
+  text-shadow: 2px 2px 5px white;
 }
 
 div.header a:active {
   color: #1d0151;
   text-decoration: none;
+  text-shadow: 2px 2px 5px white;
 }
 
 /* ----------------------------------------------------------------- */
