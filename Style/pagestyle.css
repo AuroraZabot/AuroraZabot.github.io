@@ -98,7 +98,7 @@
 /* ----------------------------------------------------------------- */
 /* If the space is too small > Stack the two columns */
 @media screen and (max-width: 800px) {
-  .leftCol, .rightCol {
+  .column.left, .column.right {
     width: 100%;
     padding: 0;
   }
