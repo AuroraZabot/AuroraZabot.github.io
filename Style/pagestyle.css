@@ -23,10 +23,11 @@ div.header a:link {
   float: center;
   display: inline;
   padding: 0px;
+  margin: 0px;
   text-align: center;
   color: #eaeaea;
   text-decoration: none;
-  font-size: 1,5vmax;
+  font-size: 1.5vmax;
 }
 
 div.header a:visited {
@@ -37,7 +38,7 @@ div.header a:visited {
 div.header a:hover {
   color: #85023c;
   text-decoration: none;
-  text-shadow: 2px 2px 5px white;
+  text-shadow: 0.5px 0.5px 0.5px white;
 }
 
 div.header a:active {
