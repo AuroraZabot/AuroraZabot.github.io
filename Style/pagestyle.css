@@ -1,6 +1,6 @@
 /* ----------------------------------------------------------------- */
 /* Header container */
-div.header {
+.header {
   padding: 0;
   margin: 0;
   height: 513px;
@@ -11,7 +11,7 @@ div.header {
 }
 
 /* Title */
-div.header h1 {
+.header h1 {
   padding: 10px;
   margin: 0;
   font-size: 5vmax;
@@ -20,7 +20,7 @@ div.header h1 {
 
 /* ----------------------------------------------------------------- */
 /* Navigation */
-div.header a:link {
+.header a:link {
   padding: 0;
   float: center;
   display: inline;
@@ -30,18 +30,18 @@ div.header a:link {
   font-size: 1.5vmax;
 }
 
-div.header a:visited {
+.header a:visited {
   color: #eaeaea;
   text-decoration: none;
 }
 
-div.header a:hover {
+.header a:hover {
   color: #85023c;
   text-decoration: none;
   text-shadow: 1px 1px 1px #1d0151;
 }
 
-div.header a:active {
+.header a:active {
   color: #e8044c;
   text-decoration: none;
   text-shadow: 1px 1px 1px #1d0151;
@@ -49,7 +49,7 @@ div.header a:active {
 
 /* ----------------------------------------------------------------- */
 /* Left column */
-div.leftCol {
+.leftCol {
   float: left;
   width: 75%;
   background-color: white;
@@ -58,7 +58,7 @@ div.leftCol {
 
 /* ----------------------------------------------------------------- */
 /* Right column */
-div.rightCol {
+.rightCol {
   float: left;
   width: 25%;
   background-color: white;
@@ -66,8 +66,16 @@ div.rightCol {
 }
 
 /* ----------------------------------------------------------------- */
+/* Row of elements */
+.row {
+  content: "";
+  display: flex;
+  clear: both;
+}
+
+/* ----------------------------------------------------------------- */
 /* Footer */
-div.footer {
+.footer {
   padding: 20px;
   text-align: center;
   background: white;
@@ -77,7 +85,7 @@ div.footer {
 /* ----------------------------------------------------------------- */
 /* If the space is too small > Stack the two columns */
 @media screen and (max-width: 800px) {
-  div.leftCol, div.rightCol {
+  .leftCol, .rightCol {
     width: 100%;
     padding: 0;
   }
