@@ -54,10 +54,15 @@
 }
 
 /* ----------------------------------------------------------------- */
-/* Left column */
-.leftCol {
+/* Generic columns */
+.column {
   flex: 1;
   float: left;
+}
+
+/* ----------------------------------------------------------------- */
+/* Left column */
+.column.leftCol {
   width: 55%;
   background-color: red;
   text-align: left;
@@ -65,12 +70,18 @@
 
 /* ----------------------------------------------------------------- */
 /* Right column */
-.rightCol {
-  flex: 1;
-  float: left;
+.column.rightCol {
   width: 15%;
   background-color: blue;
   padding-left: 20px;
+}
+
+/* ----------------------------------------------------------------- */
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* ----------------------------------------------------------------- */
