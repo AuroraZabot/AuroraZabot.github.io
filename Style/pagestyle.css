@@ -33,15 +33,18 @@ a.nav:link {
 
 a.nav:visited {
   color: #eaeaea;
+  text-decoration: none;
 }
 
 /* Change color on hover */
 a.nav:hover {
   color: #dd0451;
+  text-decoration: none;
 }
 
 a.nav:active {
   color: #0403b3;
+  text-decoration: none;
 }
 
 /* ----------------------------------------------------------------- */
