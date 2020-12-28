@@ -20,8 +20,9 @@
 
 /* Navigation */
 .header ul {
-  padding: 0;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
   width: 100%;
   text-align: center;
 }
@@ -56,59 +57,4 @@
   color: #e8044c;
   text-decoration: none;
   text-shadow: 1px 1px 1px #1d0151;
-}
-
-/* ----------------------------------------------------------------- */
-/* Row of elements */
-.row {
-  display: flex;
-}
-
-/* ----------------------------------------------------------------- */
-/* Left column */
-.left {
-  flex: 1;
-  float: left;
-  width: 55%;
-  background-color: red;
-  text-align: left;
-}
-
-/* ----------------------------------------------------------------- */
-/* Right column */
-.right {
-  flex: 1;
-  float: left;
-  width: 15%;
-  background-color: blue;
-  padding-left: 20px;
-}
-
-/* ----------------------------------------------------------------- */
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* ----------------------------------------------------------------- */
-/* Footer */
-.footer {
-  padding: 20px;
-  float: center;
-  text-align: center;
-  margin: auto;
-  background: white;
-  margin-top: 20px;
-  width: 70%;
-}
-
-/* ----------------------------------------------------------------- */
-/* If the space is too small > Stack the two columns */
-@media screen and (max-width: 800px) {
-  .left, .right {
-    width: 100%;
-    padding: 0;
-  }
 }
