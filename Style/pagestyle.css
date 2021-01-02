@@ -64,14 +64,13 @@
 /* Row of elements */
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 /* ----------------------------------------------------------------- */
 /* Left column */
 .left {
-  flex: 1;
-  float: left;
-  width: 55%;
+  flex: 55%;
   background-color: red;
   text-align: left;
 }
@@ -79,9 +78,7 @@
 /* ----------------------------------------------------------------- */
 /* Right column */
 .right {
-  flex: 1;
-  float: left;
-  width: 15%;
+  flex: 15%;
   background-color: blue;
   padding-left: 20px;
 }
