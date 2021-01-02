@@ -72,15 +72,15 @@
 .left {
   flex: 55%;
   background-color: red;
-  text-align: left;
+  left: 15%;
 }
 
 /* ----------------------------------------------------------------- */
 /* Right column */
 .right {
   flex: 15%;
+  right: 15%;
   background-color: blue;
-  padding-left: 20px;
 }
 
 /* ----------------------------------------------------------------- */
