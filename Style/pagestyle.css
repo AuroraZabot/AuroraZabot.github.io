@@ -61,37 +61,6 @@
 }
 
 /* ----------------------------------------------------------------- */
-/* Row of elements */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* ----------------------------------------------------------------- */
-/* Left column */
-.left {
-  flex: 55%;
-  background-color: red;
-  left: 15%;
-}
-
-/* ----------------------------------------------------------------- */
-/* Right column */
-.right {
-  flex: 15%;
-  right: 15%;
-  background-color: blue;
-}
-
-/* ----------------------------------------------------------------- */
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* ----------------------------------------------------------------- */
 /* Footer */
 .footer {
   padding: 20px;
@@ -101,13 +70,4 @@
   margin-top: 20px;
   background: white;
   width: 70%;
-}
-
-/* ----------------------------------------------------------------- */
-/* If the space is too small > Stack the two columns */
-@media screen and (max-width: 800px) {
-  .left, .right {
-    width: 100%;
-    padding: 0;
-  }
 }
