@@ -71,15 +71,16 @@
 .columns {
   float: left;
   padding: 15px;
-  margin-left: 20%;
   background-color: white;
 }
 
 .columns.leftcolumn {
+  margin-left: 15%;
   width: 50%;
 }
 
 .columns.rightcolumn {
+  margin-right: 15%;
   width: 20%;
 }
 
