@@ -61,6 +61,26 @@
 }
 
 /* ----------------------------------------------------------------- */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Left column */
+.main {
+  width: 50%;
+  float: left;
+  margin: auto;
+}
+
+/* Right column */
+.menu {
+  width: 20%;
+  float: left;
+  margin: auto;
+}
+
 /* Footer */
 .footer {
   padding: 20px;
