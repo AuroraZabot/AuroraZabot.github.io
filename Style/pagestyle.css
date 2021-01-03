@@ -61,30 +61,30 @@
 }
 
 /* ----------------------------------------------------------------- */
-/* Create three equal columns that floats next to each other */
-.leftcolumn {
-  float: left;
-  width: 50%;
-  padding: 15px;
-  margin-left: 20%;
-}
-
-.rightcolumn {
-  float: left;
-  width: 20%;
-  padding: 15px;
-}
-
-/* Clear floats after the columns */
+/* Content box */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+.columns {
+  float: left;
+  padding: 15px;
+  margin-left: 20%;
+  background-color: white;
+}
+
+.columns.leftcolumn {
+  width: 50%;
+}
+
+.columns.rightcolumn {
+  width: 20%;
+}
+
 @media screen and (max-width:600px) {
-  .leftcolumn, .rightcolumn {
+  .columns.leftcolumn, .columns.rightcolumn {
     width: 100%;
   }
 }
