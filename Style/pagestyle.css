@@ -71,14 +71,18 @@
 .main {
   width: 50%;
   float: left;
-  margin: auto;
+  padding: 15px;
+  color: white;
+  background-color: red;
 }
 
 /* Right column */
 .menu {
   width: 20%;
   float: left;
-  margin: auto;
+  padding: 15px;
+  color: white;
+  background-color: blue;
 }
 
 /* Footer */
