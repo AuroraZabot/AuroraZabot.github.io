@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 35vh;
   background: #060910 url("header2.jpg") no-repeat left top scroll;
   background-size: contain;
   display: flex;
@@ -17,7 +18,7 @@
 .header h1 {
   padding: 0;
   margin: 0;
-  font-size: 6vmax;
+  font-size: 5.5vmax;
   color: #eaeaea;
 }
 
@@ -79,7 +80,7 @@
 .footer {
   padding: 20px;
   text-align: center;
-  margin: auto;
+  margin-top: 15px;
   background: #0b101d;
   width: 70%;
   height: auto;
