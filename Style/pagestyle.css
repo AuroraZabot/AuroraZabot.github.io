@@ -68,7 +68,7 @@
 /* ----------------------------------------------------------------- */
 /* About box */
 .main {
-  padding: 20px 0px;
+  padding: 5px;
   text-align: left;
   margin: auto;
   background: #0b101d;
@@ -80,7 +80,7 @@
 /* ----------------------------------------------------------------- */
 /* Footer */
 .footer {
-  padding: 20px 0px;
+  padding: 5px;
   margin: auto;
   margin-top: 15px;
   background: #0b101d;
