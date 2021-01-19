@@ -4,8 +4,8 @@
   margin: 0;
   padding: 0;
   height: 550px;
-  background: #060910 url("header2.jpg") no-repeat left top scroll;
-  background-size: contain;
+  background: #060910 url("header2.jpg") no-repeat left top scroll contain;
+  /*background-size: contain;*/
   text-align: center;
   display: flex;
   justify-content: center;
