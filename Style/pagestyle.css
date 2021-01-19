@@ -48,15 +48,15 @@
 }
 
 .header a:hover {
-  color: #df5e21;
+  color: #f6c61e;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #7f2f09;
+  text-shadow: 1px 1px 1px #f69d1e;
 }
 
 .header a:active {
   color: #9efcfb;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #75d4d3;
+  text-shadow: 1px 1px 1px #4f88c3;
 }
 
 /* ----------------------------------------------------------------- */
