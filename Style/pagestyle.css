@@ -51,13 +51,13 @@
 .header a:hover {
   color: #bc0c30;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #216978;
+  text-shadow: 1px 1px 1px #801128;
 }
 
 .header a:active {
   color: #53a7b9;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #801128;
+  text-shadow: 1px 1px 1px #216978;
 }
 
 /* ----------------------------------------------------------------- */
