@@ -13,7 +13,7 @@
 /* Title */
 .header h1 {
   padding: 0;
-  margin: auto;
+  margin: 0;
   font-size: 5vmax;
   color: #eaeaea;
 }
@@ -21,7 +21,7 @@
 /* Navigation */
 .header ul {
   list-style-type: none;
-  margin-top: 50%;
+  margin: 0;
   padding: 0;
   width: 100%;
   text-align: center;
