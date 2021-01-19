@@ -11,17 +11,16 @@
 
 /* Title */
 .header h1 {
-  padding: 0;
-  margin: 0;
+  padding: auto;
   font-size: 5vmax;
   color: #eaeaea;
 }
 
 /* Navigation */
 .header ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
+  list-style-type: none;
   width: 100%;
   text-align: center;
 }
