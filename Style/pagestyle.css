@@ -2,10 +2,9 @@
 /* Header container */
 .header {
   padding: 0;
-  margin: 0;
+  margin: auto;
   height: 569px;
   text-align: center;
-  float: center;
   background: #303030 url("header2.jpg") no-repeat left top scroll;
   background-size: contain;
   opacity: 0.9;
