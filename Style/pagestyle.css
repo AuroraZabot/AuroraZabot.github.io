@@ -7,14 +7,15 @@
   background: #060910 url("header2.jpg") no-repeat left top scroll;
   background-size: contain;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Title */
 .header h1 {
   padding: 0;
   margin: 0;
-  justify-content: center;
-  align-items: center;
   font-size: 5vmax;
   color: #eaeaea;
 }
@@ -65,33 +66,26 @@
 /* About box */
 .main {
   padding: 20px;
-  float: center;
   text-align: left;
   margin: auto;
-  margin-top: 5px;
   background: #0b101d;
   width: 70%;
   height: auto;
-  overflow: auto;
 }
 
 /* ----------------------------------------------------------------- */
 /* Footer */
 .footer {
   padding: 20px;
-  float: center;
   text-align: center;
   margin: auto;
-  margin-top: 15px;
   background: #0b101d;
   width: 70%;
   height: auto;
-  overflow: auto;
 }
 
 .footer a:link {
   padding: 0;
-  float: center;
   display: inline;
   text-align: center;
   color: #e7c31c;
