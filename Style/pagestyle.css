@@ -61,33 +61,14 @@
 }
 
 /* ----------------------------------------------------------------- */
-/* Content box */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.columns {
-  float: left;
-  padding: 15px;
-  background-color: white;
-}
-
-.columns.leftcolumn {
-  margin-left: 15%;
-  width: 50%;
-}
-
-.columns.rightcolumn {
-  margin-right: 15%;
-  width: 20%;
-}
-
-@media screen and (max-width:600px) {
-  .columns.leftcolumn, .columns.rightcolumn {
-    width: 100%;
-  }
+/* About box */
+.main .about {
+  padding: 20px;
+  float: center;
+  text-align: center;
+  margin: auto;
+  background: white;
+  width: 70%;
 }
 
 /* ----------------------------------------------------------------- */
@@ -95,7 +76,7 @@
 .footer {
   padding: 20px;
   float: center;
-  text-align: center;
+  text-align: left;
   margin: auto;
   margin-top: 15px;
   background: white;
