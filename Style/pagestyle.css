@@ -13,6 +13,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  overflow: visible;
 }
 
 /* Title */
@@ -66,7 +67,7 @@
 }
 
 /* ----------------------------------------------------------------- */
-/* About box */
+/* Main box */
 .main {
   padding: 20px;
   margin: auto;
@@ -79,6 +80,7 @@
   justify-content: left;
   align-items: left;
   text-align: left;
+  overflow: visible;
 }
 
 /* ----------------------------------------------------------------- */
@@ -95,6 +97,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  overflow: visible;
 }
 
 .footer a:link {
