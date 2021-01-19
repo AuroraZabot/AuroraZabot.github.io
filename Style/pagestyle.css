@@ -91,22 +91,22 @@
   float: center;
   display: inline;
   text-align: center;
-  color: #bc0c30;
+  color: #ec732b;
   text-decoration: none;
   transition: color 1s;
 }
 
 .footer a:visited {
-  color: #bc0c30;
+  color: #ec732b;
   text-decoration: none;
 }
 
 .footer a:hover {
-  color: #d8173e;
+  color: #62e9ed;
   text-decoration: none;
 }
 
 .footer a:active {
-  color: #53a7b9;
+  color: #e7c31c;
   text-decoration: none;
 }
