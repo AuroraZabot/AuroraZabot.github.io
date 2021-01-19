@@ -6,21 +6,24 @@
   height: 550px;
   background: #060910 url("header2.jpg") no-repeat left top scroll;
   background-size: contain;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 /* Title */
 .header h1 {
-  padding: auto;
+  padding: 0;
+  margin: 0;
   font-size: 5vmax;
   color: #eaeaea;
 }
 
 /* Navigation */
 .header ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  list-style-type: none;
   width: 100%;
   text-align: center;
 }
@@ -89,7 +92,7 @@
   float: center;
   display: inline;
   text-align: center;
-  color: #ec732b;
+  color: #e7c31c;
   text-decoration: none;
   transition: color 1s;
 }
