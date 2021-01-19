@@ -5,14 +5,13 @@
   height: 569px;
   background: #060910 url("header2.jpg") no-repeat left top scroll;
   background-size: contain;
-  padding-top: 50%;
   text-align: center;
   opacity: 0.9;
 }
 
 /* Title */
 .header h1 {
-  padding: 0;
+  padding-top: 50%;
   margin: 0;
   font-size: 5vmax;
   color: #eaeaea;
@@ -22,7 +21,7 @@
 .header ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-top: 55%;
   width: 100%;
   text-align: center;
 }
