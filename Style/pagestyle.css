@@ -1,7 +1,7 @@
 /* ----------------------------------------------------------------- */
 /* Header container */
 .header {
-  padding: 0;
+  padding: auto;
   margin: 0;
   height: 569px;
   text-align: center;
