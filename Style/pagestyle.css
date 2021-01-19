@@ -56,7 +56,7 @@
 .header a:hover {
   color: #f6c61e;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #f69d1e;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 .header a:active {
