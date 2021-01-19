@@ -2,11 +2,14 @@
 /* Header container */
 .header {
   padding: 0;
-  margin: auto;
   height: 569px;
   text-align: center;
   background: #303030 url("header2.jpg") no-repeat left top scroll;
   background-size: contain;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
   opacity: 0.9;
 }
 
