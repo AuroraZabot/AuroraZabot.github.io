@@ -51,7 +51,7 @@
 .header a:hover {
   color: #bc0c30;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #cc1137;
+  text-shadow: 1px 1px 1px #ce0e35;
 }
 
 .header a:active {
@@ -101,13 +101,11 @@
 }
 
 .footer a:hover {
-  color: #c42435;
+  color: #ce0e35;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #586ca0;
 }
 
 .footer a:active {
-  color: #57a5ba;
+  color: #386588;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #ee3d3b;
 }
