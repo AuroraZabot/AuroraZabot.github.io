@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  height: fit-content;
   background: #060910 url("header2.jpg") no-repeat left top scroll;
   background-size: contain;
   display: flex;
