@@ -80,6 +80,7 @@
 /* ----------------------------------------------------------------- */
 /* Footer */
 .footer {
+  padding: auto;
   margin: auto;
   margin-top: 15px;
   background: #0b101d;
