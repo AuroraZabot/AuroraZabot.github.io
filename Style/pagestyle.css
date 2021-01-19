@@ -1,12 +1,12 @@
 /* ----------------------------------------------------------------- */
 /* Header container */
 .header {
-  padding-top: 50%;
   margin: 0;
   height: 569px;
-  text-align: center;
-  background: #303030 url("header2.jpg") no-repeat left top scroll;
+  background: #060910 url("header2.jpg") no-repeat left top scroll;
   background-size: contain;
+  padding-top: 50%;
+  text-align: center;
   opacity: 0.9;
 }
 
@@ -49,15 +49,15 @@
 }
 
 .header a:hover {
-  color: #bc0c30;
+  color: #df5e21;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #801128;
+  text-shadow: 1px 1px 1px #7f2f09;
 }
 
 .header a:active {
-  color: #53a7b9;
+  color: #9efcfb;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #216978;
+  text-shadow: 1px 1px 1px #75d4d3;
 }
 
 /* ----------------------------------------------------------------- */
@@ -68,7 +68,7 @@
   text-align: left;
   margin: auto;
   margin-top: 5px;
-  background: #232323;
+  background: #0b101d;
   width: 70%;
   overflow: auto;
 }
@@ -81,7 +81,7 @@
   text-align: center;
   margin: auto;
   margin-top: 15px;
-  background: #232323;
+  background: #0b101d;
   width: 70%;
   overflow: auto;
 }
