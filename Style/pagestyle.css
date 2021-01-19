@@ -2,7 +2,8 @@
 /* Header container */
 .header {
   margin: 0;
-  height: 569px;
+  padding: 0;
+  height: 550px;
   background: #060910 url("header2.jpg") no-repeat left top scroll;
   background-size: contain;
   text-align: center;
