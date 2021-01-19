@@ -69,12 +69,16 @@
 /* About box */
 .main {
   padding: 20px;
-  text-align: left;
   margin: auto;
   background: #0b101d;
   width: 70%;
   height: auto;
   min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
 }
 
 /* ----------------------------------------------------------------- */
