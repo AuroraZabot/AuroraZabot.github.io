@@ -71,6 +71,7 @@
   margin-top: 5px;
   background: #0b101d;
   width: 70%;
+  height: auto;
   overflow: auto;
 }
 
@@ -84,6 +85,7 @@
   margin-top: 15px;
   background: #0b101d;
   width: 70%;
+  height: auto;
   overflow: auto;
 }
 
