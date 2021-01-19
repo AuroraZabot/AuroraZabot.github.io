@@ -12,7 +12,7 @@
 
 /* Title */
 .header h1 {
-  padding-top: 50%;
+  padding: 0;
   margin: 0;
   font-size: 5vmax;
   color: #eaeaea;
@@ -22,7 +22,7 @@
 .header ul {
   list-style-type: none;
   margin: 0;
-  padding-top: 55%;
+  padding: 0;
   width: 100%;
   text-align: center;
 }
