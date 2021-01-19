@@ -96,7 +96,7 @@
 }
 
 .footer a:visited {
-  color: #ec732b;
+  color: #e7c31c;
   text-decoration: none;
 }
 
@@ -106,6 +106,6 @@
 }
 
 .footer a:active {
-  color: #e7c31c;
+  color: #ec732b;
   text-decoration: none;
 }
