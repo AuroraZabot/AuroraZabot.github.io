@@ -20,7 +20,7 @@
   overflow: visible;
 }
 
-.header img {
+.header > img {
   position: absolute;
   left: 0px;
   top: 0px;
