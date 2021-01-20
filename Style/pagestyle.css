@@ -91,7 +91,7 @@
 /* Extra large devices */
 @media only screen and (min-width: 1060px) {
   .header {height: 440px;}
-  .header h1 {font-size: 5.7vw;}
+  .header h1 {font-size: 5.5vw;}
   .header a:link {font-size: 2vw;}
 }
 
