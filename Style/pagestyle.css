@@ -4,16 +4,26 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  max-height: 440px;
+  height: auto;
   min-height: 220px;
-  background: #0b0c0e url("headerLarge.jpg") no-repeat left top scroll;
-  background-size: contain;
+  max-height: 440px;
+
+  color: #0b0c0e;
+  /*background: #0b0c0e url("headerLarge.jpg") no-repeat left top scroll;
+  background-size: contain;*/
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   overflow: visible;
+}
+
+.header img {
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
 }
 
 /* Title */
