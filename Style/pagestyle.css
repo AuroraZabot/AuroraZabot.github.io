@@ -8,6 +8,7 @@
   height: auto;
   min-height: 220px;
   max-height: 440px;
+  font-size: 5.5vw;
   color: #0b0c0e;
   display: flex;
   flex-direction: column;
@@ -30,6 +31,7 @@
 .header h1 {
   padding: 0;
   margin: 0;
+  font-size: 2vw;
   color: #eaeaea;
   text-shadow: 1px 1px 1px #000000;
 }
@@ -89,46 +91,18 @@
 
 /* Small devices */
 @media only screen and (min-width: 600px) {
-  .header h1 {
-    font-size: 60px;
-  }
-
-  .header a:link {
-    font-size: 25px;
-  }
 }
 
 /* Medium devices */
 @media only screen and (min-width: 768px) {
-  .header h1 {
-    font-size: 75px;
-  }
-
-  .header a:link {
-    font-size: 30px;
-  }
 }
 
 /* Large devices */
 @media only screen and (min-width: 992px) {
-  .header h1 {
-    font-size: 105px;
-  }
-
-  .header a:link {
-    font-size: 40px;
-  }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices */
 @media only screen and (min-width: 1200px) {
-  .header h1 {
-    font-size: 5.5vmax;
-  }
-
-  .header a:link {
-    font-size: 2vmax;
-  }
 }
 
 /* ----------------------------------------------------------------- */
