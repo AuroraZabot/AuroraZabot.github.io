@@ -53,7 +53,7 @@
   font-size: 21px;
   color: #eaeaea;
   text-decoration: none;
-  transition: color 1s;
+  transition: color 0.5s;
 }
 
 .header a:visited {
