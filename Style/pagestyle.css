@@ -95,8 +95,17 @@
 /* Small devices */
 @media only screen and (min-width: 600px) {
   .header {
-    height: 35px;
+    height: 35vh;
   }
+
+  .header h1 {
+    font-size: 60px;
+  }
+
+  .header a:link {
+    font-size: 25px;
+  }
+}
 }
 
 /* Medium devices */
