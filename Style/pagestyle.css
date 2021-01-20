@@ -6,7 +6,7 @@
   width: 100%;
   height: 45vh;
   min-height: 185px;
-  background: #060910 url("header3.jpg") no-repeat left top scroll;
+  background: #0b0c0e url("header3.jpg") no-repeat left top scroll;
   background-size: contain;
   display: flex;
   flex-direction: column;
@@ -72,7 +72,7 @@
 .main {
   padding: 20px;
   margin: auto;
-  background: #0b101d;
+  background: #17191d;
   width: 70%;
   height: auto;
   min-height: 20vh;
@@ -89,7 +89,7 @@
   padding: 10px 20px;
   margin: auto;
   margin-top: 15px;
-  background: #0b101d;
+  background: #17191d;
   width: 70%;
   height: auto;
   display: flex;
