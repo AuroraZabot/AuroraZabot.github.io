@@ -77,13 +77,6 @@
 /* Very tiny devices*/
 @media only screen and (max-width: 600px) {
   .header {height: 250px;}
-
-  .main img.pic {
-    height: 214px;
-    width: 327px;
-    margin: auto;
-    overflow: auto;
-  }
 }
 
 /* Small devices */
@@ -124,7 +117,7 @@
   height: 214px;
   width: 327px;
   float: left;
-  margin-right: 10px;
+  margin-right: 0px 10px;
   overflow: auto;
 }
 
