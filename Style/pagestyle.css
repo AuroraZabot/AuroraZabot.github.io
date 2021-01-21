@@ -77,6 +77,13 @@
 /* Very tiny devices*/
 @media only screen and (max-width: 600px) {
   .header {height: 250px;}
+
+  .main img.pic {
+    height: 214px;
+    width: 327px;
+    margin: auto;
+    overflow: auto;
+  }
 }
 
 /* Small devices */
@@ -119,36 +126,6 @@
   float: left;
   margin-right: 10px;
   overflow: auto;
-}
-
-.main a.cv {
-  border: 2px solid #e7c31c;
-  border-radius: 8px;
-  width: 150px;
-  padding: 16px 32px;
-  display: inline-block;
-  margin: 2px 5px;
-  text-align: center;
-  text-decoration: none;
-  transition: 0.5s;
-}
-
-.main a.cv:link {
-  background-color: #17191d;
-}
-
-.main a.cv:visited {
-  background-color: #17191d;
-}
-
-.main a.cv:hover {
-  background-color: #e7c31c;
-  color: #17191d;
-}
-
-.main a.cv:active {
-  background-color: #e7c31c;
-  color: #17191d;
 }
 
 /* ----------------------------------------------------------------- */
