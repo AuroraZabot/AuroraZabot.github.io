@@ -82,6 +82,15 @@
 /* Small devices */
 @media only screen and (min-width: 600px) {
   .header {height: 41.5vw;}
+  .main img.pic {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 /* Extra large devices */
