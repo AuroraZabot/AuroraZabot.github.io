@@ -112,6 +112,12 @@
   word-wrap: break-word;
 }
 
+.main img.pic {
+  height: 214px;
+  width: 327px;
+  float: left;
+}
+
 /* ----------------------------------------------------------------- */
 /* Footer */
 .footer {
