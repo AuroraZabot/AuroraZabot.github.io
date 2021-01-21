@@ -110,16 +110,14 @@
 .main p {
   line-height: 1.6;
   word-wrap: break-word;
-  padding: 16px 32px;
-  margin: 4px 10px;
+  margin-left: 10px;
 }
 
 .main img.pic {
   height: 214px;
   width: 327px;
   float: left;
-  padding: 16px 32px;
-  margin: 4px 10px;
+  margin-right: 10px;
   overflow: auto;
 }
 
