@@ -110,7 +110,8 @@
 .main p {
   line-height: 1.6;
   word-wrap: break-word;
-  margin-left: 10px;
+  padding: 16px 32px;
+  margin: 4px 10px;
 }
 
 .main img.pic {
@@ -141,7 +142,6 @@
   padding: 16px 32px;
   display: inline-block;
   text-decoration: none;
-  background-color: #17191d;
 }
 
 .main a.cv:hover {
@@ -150,7 +150,7 @@
   width: 200px;
   padding: 16px 32px;
   display: inline-block;
-  color: #4f88c3;
+  color: #ec732b;
   background-color: #e7c31c;
   text-decoration: none;
 }
@@ -161,7 +161,7 @@
   width: 200px;
   padding: 16px 32px;
   display: inline-block;
-  color: #4f88c3;
+  color: #ec732b;
   background-color: #e7c31c;
   text-decoration: none;
 }
