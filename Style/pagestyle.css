@@ -120,26 +120,17 @@
   overflow: auto;
 }
 
-.main button {
-  background-color: #17191d; /* Green */
+.main a.cv:link {
+  background-color: #17191d;
   border: 2px solid #e7c31c;
   border-radius: 8px;
   width: 200px;
   padding: 16px 32px;
   display: inline-block;
   margin: 4px 10px;
-  transition-duration: 0.5s;
-  cursor: pointer;
-}
-
-.main button:hover {
-  background-color: #e7c31c;
-}
-
-.main a.cv:link {
   text-align: center;
   text-decoration: none;
-  transition: color 0.5s;
+  transition: 0.5s;
   font-size: 15px;
 }
 
@@ -149,11 +140,13 @@
 
 .main a.cv:hover {
   color: #4f88c3;
+  background-color: #e7c31c;
   text-decoration: none;
 }
 
 .main a.cv:active {
   color: #4f88c3;
+  background-color: #e7c31c;
   text-decoration: none;
 }
 
