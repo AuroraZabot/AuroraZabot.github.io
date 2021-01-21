@@ -131,21 +131,36 @@
   text-align: center;
   text-decoration: none;
   transition: 0.5s;
-  font-size: 15px;
 }
 
 .main a.cv:visited {
+  background-color: #17191d;
+  border: 2px solid #e7c31c;
+  border-radius: 8px;
+  width: 200px;
+  padding: 16px 32px;
+  display: inline-block;
   text-decoration: none;
   background-color: #17191d;
 }
 
 .main a.cv:hover {
+  border: 2px solid #e7c31c;
+  border-radius: 8px;
+  width: 200px;
+  padding: 16px 32px;
+  display: inline-block;
   color: #4f88c3;
   background-color: #e7c31c;
   text-decoration: none;
 }
 
 .main a.cv:active {
+  border: 2px solid #e7c31c;
+  border-radius: 8px;
+  width: 200px;
+  padding: 16px 32px;
+  display: inline-block;
   color: #4f88c3;
   background-color: #e7c31c;
   text-decoration: none;
