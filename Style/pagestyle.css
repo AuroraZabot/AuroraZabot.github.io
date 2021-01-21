@@ -121,14 +121,6 @@
   overflow: auto;
 }
 
-.main img.pic {
-  height: 214px;
-  width: 327px;
-  float: left;
-  margin-right: 10px;
-  overflow: auto;
-}
-
 .main a.cv {
   border: 2px solid #e7c31c;
   border-radius: 8px;
