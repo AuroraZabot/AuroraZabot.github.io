@@ -117,7 +117,7 @@
   height: 214px;
   width: 327px;
   float: left;
-  margin: 0px 10px;
+  margin-right: 10px;
   padding: 0;
   overflow: auto;
 }
@@ -151,6 +151,32 @@
 .main a.cv:active {
   background-color: #e7c31c;
   color: #17191d;
+}
+
+/* Small devices */
+@media only screen and (min-width: 650px) {
+  .main {
+    padding: 20px;
+    margin: auto;
+    background-color: #17191d;
+    width: 70%;
+    height: auto;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    overflow: visible;
+  }
+
+  .main img.pic {
+    height: 214px;
+    width: 327px;
+    float: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+  }
 }
 
 /* ----------------------------------------------------------------- */
