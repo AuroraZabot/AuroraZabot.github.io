@@ -124,7 +124,8 @@
 .main a.cv {
   border: 2px solid #e7c31c;
   border-radius: 8px;
-  width: 150px;
+  width: auto;
+  height: auto;
   padding: 16px 32px;
   display: inline-block;
   margin: 2px 5px;
