@@ -110,6 +110,7 @@
 .main p {
   line-height: 1.6;
   word-wrap: break-word;
+  margin-left: 10px;
 }
 
 .main img.pic {
@@ -126,7 +127,7 @@
   width: 200px;
   padding: 16px 32px;
   display: inline-block;
-  margin: 4px 2px;
+  margin: 4px 10px;
   transition-duration: 0.5s;
   cursor: pointer;
 }
