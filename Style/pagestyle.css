@@ -96,7 +96,7 @@
 .main {
   padding: 20px;
   margin: auto;
-  background: #17191d;
+  background-color: #17191d;
   width: 70%;
   height: auto;
   min-height: 20vh;
@@ -117,6 +117,23 @@
   width: 327px;
   float: left;
   overflow: auto;
+}
+
+.main button {
+  background-color: #17191d; /* Green */
+  border: 2px solid #e7c31c;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.main button:hover {
+  background-color: #e7c31c;
+  color: #4f88c3;
 }
 
 /* ----------------------------------------------------------------- */
