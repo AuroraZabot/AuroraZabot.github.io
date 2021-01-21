@@ -117,8 +117,8 @@
   height: 214px;
   width: 327px;
   float: left;
-  margin: auto;
-  padding: 10px;
+  margin: 10px;
+  padding: 0;
   overflow: auto;
 }
 
