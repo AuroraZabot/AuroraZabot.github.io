@@ -118,6 +118,8 @@
   height: 214px;
   width: 327px;
   float: left;
+  padding: 16px 32px;
+  margin: 4px 10px;
   overflow: auto;
 }
 
